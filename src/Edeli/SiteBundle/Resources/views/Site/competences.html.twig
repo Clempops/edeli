@@ -1,0 +1,33 @@
+{% extends "EdeliSiteBundle::layout.html.twig" %}
+
+{% block title %}
+Compétences - {{ parent() }}
+{% endblock %}
+
+{% block EdeliBody %}
+<main id="presentation" class="container"> 
+	<div class="row">
+		<div class="span7 offset1">
+			<h2>Nos compétences :</h2>
+			<p>EDELI a diverses compétences dans le domaine de l’ingénierie (mécanique et logistique) qu’elle met à disposition des entreprises depuis près de 20 ans
+<br>
+L’enseignement qui nous est dispensés à l’IFMA à travers les 3 pôles de formation nous permet d’avoir des connaissances dans le domaine des matériaux, de la conception de systèmes mécaniques ainsi que dans la gestion industrielle.
+<br>
+Nous disposons des compétences dans les domaines suivants :</p>
+			<p><h4>CFAO :</h4> Catia, SolidWorks, Adams… De l’idée à la gamme d’usinage, EDELI s’occupe de tout ! Recherche de solutions, conception/réalisation de pièces ou assemblage de mécanismes.</p>
+			<p>Calcul et réduction de coûts  : <h4></h4>EDELI peut mettre en place des outils de gestion industrielle et optimiser les flux pour votre entreprise.</p>
+			<p><h4>Dimensionnement : </h4>Calcul de résistance des matériaux et études de structures.</p>
+			<p><h4>Planification : </h4>Optimisation de production sur un site industriel.</p>
+			<p><h4>Calcul par éléments finis :   </h4>Avec Ansys pour tous types de structures.</p>
+			<p><h4>Electronique  : </h4>Programmation d’automate ou d’une carte de commande.</p>
+			<p><h4>Programmation : </h4>EDELI vous propose une gamme de services logiciels, programmation C/C++/VBA/bases de données.</p>
+			<p><h4>Web : </h4>Les compétences de l’EDELI vous permettent aussi de promouvoir votre projet par le biais d’internet en créant votre propre site !</p>
+			<h4>Finalement EDELI présente l’avantage de pratiquer un service de qualité à moindres coûts.  </h4>
+		</div>
+	</div>
+</main>
+
+
+
+{% include "EdeliSiteBundle::footer.inc.html.twig" %}
+{% endblock %}

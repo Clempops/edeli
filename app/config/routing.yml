@@ -1,0 +1,4 @@
+edeli_site:
+    resource: "@EdeliSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>{% block title %}Edeli{% endblock %}</title>
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery.js"></script> 
+<script src="../bootstrap/js/bootstrap.min.js "></script
+
+</head>
+
+
+<body>
+  {% include "EdeliSiteBundle::header.inc.html.twig" %}
+  {% block SiteLayout %}
+  {% endblock %}
+  
+  
+
+</body>
+
+
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$('.carousel').carousel({
+   interval: 4000  
+});
+</script>
+</html>
+

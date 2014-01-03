@@ -1,0 +1,17 @@
+{% extends "EdeliSiteBundle::layout.html.twig" %}
+
+{% block title %}
+Equipe - {{ parent() }}
+{% endblock %}
+
+{% block EdeliBody %}
+<div id="equipe" class="container">
+ <div class="row">
+<div class="span12">
+  <img src="{{ asset('images/organi.jpg') }}" alt="" /></a>
+</div>
+ </div>
+</div>
+</div>
+{% include "EdeliSiteBundle::footer.inc.html.twig" %} 
+{% endblock %}

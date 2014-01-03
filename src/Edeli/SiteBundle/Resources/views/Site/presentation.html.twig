@@ -1,0 +1,22 @@
+{% extends "EdeliSiteBundle::layout.html.twig" %}
+
+{% block title %}
+Présentation - {{ parent() }}
+{% endblock %}
+
+{% block EdeliBody %}
+<main id="presentation" class="container"> 
+	<div class="row">
+		<div class="span7 offset1">
+			<h2>EDELI : L’entreprise des Elèves de l’IFMA</h2>
+			<p>EDELI est une association de type junior entreprise créée en 1995 par des élèves ingénieurs de l'IFMA motivés, souhaitant proposer leurs services aux entreprises, associations ou particuliers.</p>
+			<p>EDELI a pour but des trouver des clients en milieu industriel afin de permettre aux élèves ingénieurs de réaliser des projets concrets. Les entreprises ont ainsi accès à des compétences élevées, et les étudiants sont gratifiés par une rémunération proportionnelle au travail effectué.</p>
+			<p>Les élèves de l’IFMA peuvent ainsi mettre en application leurs connaissances et compétences dans le monde professionnel. Ces projets assurent une valeur ajoutée non négligeable au CV de l’élève. Les domaines abordés sont vastes et dépendent des qualités de chacun.</p>
+			<p>L’engagement dans le bureau de l’association permet la découverte du fonctionnement interne d’une entreprise au travers de la gestion des ressources, des projets, de la communication et des finances. L’insertion professionnelle des membres du bureau sera plus aisée grâce à la confiance développée au cours de cette activité associative.</p>
+			<p>Les portes de l’EDELI sont ouvertes à tous, tous nous ouvrent leurs portes, et cette voie ouvre vers l’avenir et la vie professionnelle.</p>
+		</div>
+	</div>
+</main>
+</div>
+{% include "EdeliSiteBundle::footer.inc.html.twig" %}
+{% endblock %}

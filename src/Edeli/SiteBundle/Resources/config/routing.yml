@@ -1,0 +1,18 @@
+EdeliSite_accueil:
+    path:      /
+    defaults:  { _controller: EdeliSiteBundle:Site:accueil }
+EdeliSite_equipe:
+    path:      /equipe
+    defaults:  { _controller: EdeliSiteBundle:Site:equipe }
+EdeliSite_realisations:
+    path:      /realisations
+    defaults:  { _controller: EdeliSiteBundle:Site:realisations }
+EdeliSite_presentation:
+    path:      /presentation
+    defaults:  { _controller: EdeliSiteBundle:Site:presentation }
+EdeliSite_contact:
+    path:      /contact
+    defaults:  { _controller: EdeliSiteBundle:Site:contact }
+EdeliSite_competences:
+    path:      /competences
+    defaults:  { _controller: EdeliSiteBundle:Site:competences }

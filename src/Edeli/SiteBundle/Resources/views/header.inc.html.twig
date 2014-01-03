@@ -1,0 +1,22 @@
+{% block header %}	
+	<div class="wrapper">
+		<nav class="navbar">
+		  <div class="navbar-inner">
+		    <a href="{{ path('EdeliSite_accueil')}}"> <img src="{{ asset('images/logoedeli.jpg')  }}" alt="" /></a>
+		    <div class="container"> 
+		      <ul class="nav">
+		        <li> <a href="{{ path('EdeliSite_presentation')}}">Présentation</a> </li>
+		        <li> <a href="{{ path('EdeliSite_equipe')}}">L'équipe</a> </li>
+		        <li> <a href="{{ path('EdeliSite_realisations')}}">Réalisations</a> </li>
+		        <li> <a href="{{ path('EdeliSite_competences')}}">Compétences</a> </li>
+		      </ul>
+
+		      <a id="btn" href="{{ path('EdeliSite_contact')}}"><button class="btn btn-info  btn-small" type="submit">Contact</button></a>      
+		      <a id="btn" href="https://www.facebook.com/edelifma?fref=ts" target="_blank"> <img src="{{ asset('images/twitter.jpg') }}" alt="" /></a>
+		      <a id="btn" href="https://www.facebook.com/edelifma?fref=ts" target="_blank"> <img src="{{ asset('images/facebook.jpg') }}" alt="" /></a>
+		      <a id="btn" href="https://www.ifma.fr/" target="_blank"> <img src="{{ asset('images/logoifma.jpeg') }}" alt="" /></a>
+		    </div>
+		  </div>
+		</nav>
+	
+{% endblock %}

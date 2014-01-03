@@ -1,0 +1,73 @@
+
+
+
+
+
+
+{% extends "EdeliSiteBundle::layout.html.twig" %}
+
+{% block title %}
+Accueil - {{ parent() }}
+{% endblock %}
+
+ 
+
+{% block EdeliBody %}
+
+<!-- Le carousel --> 
+<div id="carousel" class="plop">
+<div class="container">
+  <div class="row">
+    <div class="span12" class="carousel">
+      <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="item active"> <img alt=""src="{{ asset('images/ecole.png') }}"/>
+            <div class="carousel-caption">
+              <p>L'école</p>
+            </div>
+          </div>
+          <div class="item"> <img alt="" src="{{ asset('images/equipe.png') }}"/>
+            <div class="carousel-caption">
+              <p>Notre équipe</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control left" data-slide="prev" href="#myCarousel">‹</a>
+        <a class="carousel-control right" data-slide="next" href="#myCarousel">›</a> 
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- La phrase d'accroche -->
+
+<div id="phraseAccroche" class="span12">Quand l'imagination devient énergie ...</div>
+
+<!-- Téléchargement de la plaquette -->
+
+<div id="basaccueil" class="container">
+
+<div class="row">
+  <div class="span3 offset1" id="plaquette">
+    <h4>Consulter la plaquette</h4>
+    <a class="media" href={{ asset('pdf/plaquette.pdf') }}> <img src="{{ asset('images/plaquette.png') }}" alt="" /></a>
+  </div>
+  <div  id="motpresident" class="span5">
+    <h4>Le mot du président</h4>
+    <p>« Bienvenue sur le site de l'EDELI, un espace constituant une véritable interface entre vos besoins, vos attentes et nos solutions.
+Notre priorité : construire avec vous une relation professionnelle agréable afin de vous accompagner dans vos projets en vous offrant des prestations de service de qualité. Je vous souhaite une excellente navigation, et espère avoir le plaisir de vous compter prochainement parmi nos clients. »</p>
+</div>
+
+  
+  <div class="span3 offset1" id="video">
+    <h4>Découvrez la vidéo de présentation de l'EDELI</h4>
+    <a href="http://www.youtube.com/watch?v=lvyqtvadtNo" target="_blank"> <img src="{{ asset('images/youtube.jpg')  }}" alt="" /></a>
+  </div>
+
+  </div>
+</div>
+
+
+{% endblock %}
